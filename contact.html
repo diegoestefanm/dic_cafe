@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DIC cafe</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
+  </head>
+  <body>
+    <header class="sub_header">
+      <nav class="header_nav">
+        <a href="index.html"><img src="imagenes/sample_logo_k.png" class="logo"></a>
+        <ul class="global_nav">
+          <a href="index.html" class="global_nav_item">
+            <li>Home</li>
+          </a>
+          <a href="blueberry_pancakes.html" class="global_nav_item">
+            <li>Menu</li>
+          </a>
+          <a href="contact.html" class="global_nav_item">
+            <li>Contact</li>
+          </a>
+        </ul>
+      </nav>
+    </header>
+    <section class="section_inner">
+      <div class="section_title">
+        <h1>CONTACT</h1>
+        <p>Contáctanos</p>
+      </div>
+      <form action="#" method="POST">
+        <table class="contact">
+          <tr class="contact_line">
+            <td class="contact_sign"><label for="name">su nombre</label></td>
+            <td class="contact_input"><input type="text" name="name" id="name"></td>
+          </tr>
+          <tr class="contact_line">
+            <td class="contact_sign"><label for="phonenumber">Datos de contacto</label></td>
+            <td class="contact_input"><input type="tel" name="phonenumber" id="phonenumber"></td>
+          </tr>
+          <tr class="contact_line">
+            <td class="contact_sign"><label for="region">Región de residencia</label></td>
+            <td>
+              <select id="region">
+                <option value="0">Por favor, seleccione.</option>
+                <option value="1">Hokkaido</option>
+                <option value="2">Tohoku (las seis prefecturas más septentrionales de Honshu)</option>
+                <option value="3">Kantou (mitad oriental de Japón, incluido Tokio)</option>
+                <option value="4">centro</option>
+                <option value="5">Kinki (región alrededor de Osaka, Kioto y Nara)</option>
+                <option value="6">Chugoku y Shikoku</option>
+                <option value="7">Kyushu (la más meridional de las cuatro islas principales de Japón)</option>
+              </select>
+            </td>
+          </tr>
+          <tr class="contact_content">
+            <td class="contact_sign"><label for="content">Contenido</label></td>
+            <td class="contact_input"><textarea name="content" id="content"></textarea></td>
+          </tr>
+        </table>
+        <div class="contact_btn_area">
+          <button type="reset" class="contact_btn reset_btn">Reiniciar</button>
+          <button type="submit" class="contact_btn submit_btn">Transmite.</button>
+        </div>
+      </form>
+    </section>
+    <footer class="footer">
+      <nav>
+        <ul class="footer_nav">
+          <a href="index.html" class="footer_nav_item">
+            <li>Home</li>
+          </a>
+          <a href="blueberry_pancakes.html" class="footer_nav_item">
+            <li>Menu</li>
+          </a>
+          <a href="contact.html" class="footer_nav_item">
+            <li>Contact</li>
+          </a>
+          <a href="index.html" class="footer_nav_item">
+            <li>
+              <img src="imagenes/sample_logo_w.png" class="footer_logo">
+            </li>
+          </a>
+        </ul>
+      </nav>
+      <p class="footer_right">© DIVIC Corp. All RIGHTS RESERVED.</p>
+    </footer>
+  </body>
+</html>

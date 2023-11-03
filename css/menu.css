@@ -1,0 +1,106 @@
+.menu_key {
+    height: 100px;
+    background: url("../imagenes/sample_key.jpg") no-repeat center;
+    background-size: cover;
+  }
+  .wrapper {
+    display: flex;
+  }
+  .main {
+    padding: 0 0 0 50px;
+    width: calc(100% - 200px);
+  }
+  .side_menu {
+    width: 200px;
+  }
+  .side_menu_title {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 25px;
+    padding-left: 10px;
+  }
+  .side_menu_item {
+    padding: 20px 10px;
+    border-bottom: solid #42210b 1px;
+    display: block;
+    text-decoration: none;
+  }
+  .side_menu_item:hover {
+    background: rgba(83,71,65,.3);
+  }
+  .side_ad {
+    color: #fff;
+    background: rgba(83,71,65,.7);
+    padding: 20px;
+    margin: 30px 0;
+  }
+  .menu_image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+  .menu_name {
+    font-family: 'Noto Serif JP', serif;
+  }
+  .menu_price {
+    font-family: 'Noto Serif JP', serif;
+    text-align: right;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .pancake_menu {
+    background: rgba(83,71,65,.3);
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+  .menu_list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .menu_item {
+    width: 49%;
+    display: flex;
+    flex-direction: row-reverse;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+    margin-bottom: 20px;
+  }
+  .menu_item_content {
+    width: 45%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #fff;
+  }
+  .menu_item_image {
+    width: 55%;
+    object-fit: cover;
+    height: 300px;
+  }
+  .menu_item_price {
+    color: #42210b;
+    font-size: 18px;
+    text-align: right;
+  }
+  
+  .menu_item_title {
+    font-size: 18px;
+    font-family: 'Noto Serif JP', serif;
+  }
+/*
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.4);
+  }
+  .btn:hover {
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+  }
+  
+  .btn-detail {
+    background: #2e58a6;
+    color: #fff;
+  }*/
